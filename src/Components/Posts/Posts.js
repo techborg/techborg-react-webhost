@@ -43,19 +43,56 @@ function Posts() {
             
             </div>
             <div className="image">
-              <img src="../../../Images/" alt="" />
+              <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
               <p className="rate"> </p>
               <span className="kilometer"></span>
-              <p className="name"></p>
+              <p className="name">C++</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+          <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image">
+              <img src="../../../Images/event/2.png" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate"> </p>
+              <span className="kilometer"></span>
+              <p className="name">Web Programming</p>
             </div>
             <div className="date">
               <span></span>
             </div>
           </div>
         </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image">
+              <img src="../../../Images/event/3.png" alt="" />
+            </div>
+            <div className="content">
+              <p className="rate"> </p>
+              <span className="kilometer"></span>
+              <p className="name">Smart Device Programming</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        </div> 
       </div>
+      
     </div>
   );
 }
