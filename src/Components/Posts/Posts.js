@@ -10,17 +10,14 @@ function Posts() {
       <div className="moreView">
         <div className="heading">
           <span>Acticles</span>
-          <span>View more</span>
+            <span>View more</span>
         </div>
         <div className="cards">
-          <div
-            className="card"
-          >
-            <div className="favorite">
-              
-            </div>
-            <div className="image">
-              <img src="../../../Images/prolang/c.png" alt="" />
+          <div className="card">
+           <div className="favorite">        
+        </div>
+        <div className="image">
+        <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -32,6 +29,7 @@ function Posts() {
             </div>
           
           </div>
+          
           
         </div>
         

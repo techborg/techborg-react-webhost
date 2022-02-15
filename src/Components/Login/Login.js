@@ -1,13 +1,11 @@
 import React from 'react';
-
-import Logo from '../../olx-logo.png';
 import './Login.css';
 
 function Login() {
   return (
     <div>
       <div className="loginParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        
         <form>
           <label htmlFor="fname">Email</label>
           <br />

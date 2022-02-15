@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import Logo from '../../olx-logo.png';
 import './Signup.css';
 import axios from 'axios';
  const baseurl=''
@@ -42,7 +41,7 @@ export default function Signup() {
   return (
     <div>
       <div className="signupParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        
         <form  >
           <label htmlFor="fname">Username</label>
           <br />
