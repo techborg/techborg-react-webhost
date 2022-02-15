@@ -7517,6 +7517,11 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"react-accessible-dropdown-menu-hook@^3.2.0":
+  "integrity" "sha512-DilA+bEX1Jznu81Y7aVZyC2bWktuIHmMDW8OIGb0wmdfiP0mQEkklgxGaMJigwM6SssBghiKTRmoQIXkoS6YkQ=="
+  "resolved" "https://registry.npmjs.org/react-accessible-dropdown-menu-hook/-/react-accessible-dropdown-menu-hook-3.2.0.tgz"
+  "version" "3.2.0"
+
 "react-app-polyfill@^3.0.0":
   "integrity" "sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w=="
   "resolved" "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-3.0.0.tgz"

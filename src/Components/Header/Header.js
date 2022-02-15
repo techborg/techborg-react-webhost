@@ -1,4 +1,5 @@
 import React from 'react';
+import useDropdownMenu from 'react-accessible-dropdown-menu-hook';
 
 import './Header.css';
 import Search from '../../assets/Search';
@@ -27,6 +28,7 @@ function Header() {
             <Search color="#ffffff"></Search>
           </div>
           </div>*/}
+          
           <div className="language">
           <span>Innovation</span>
           <Arrow></Arrow>
@@ -36,7 +38,7 @@ function Header() {
           <Arrow></Arrow>
         </div>
           <div className="language">
-          <span>ComputerScience</span>
+          <span>Computer Science</span>
           <Arrow></Arrow>
         </div>
           <div className="language">
