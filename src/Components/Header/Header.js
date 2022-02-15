@@ -10,9 +10,6 @@ function Header() {
         <div className="brandName">
           {}
            <h1>TECHBORG</h1>
-
-
-
         </div>
         {/* <div className="placeSearch">
           <Search></Search>
@@ -62,7 +59,6 @@ function Header() {
           <span>Login</span>
           <hr />
         </div>
-
         {/* <div className="sellMenu">
           <SellButton></SellButton>
           <div className="sellMenuContent">

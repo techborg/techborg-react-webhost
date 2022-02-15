@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Heart from '../../assets/Heart';
+
 import './Post.css';
 
 function Posts() {
@@ -9,7 +9,7 @@ function Posts() {
     <div className="postParentDiv">
       <div className="moreView">
         <div className="heading">
-          <span>Quick Menu</span>
+          <span>Acticles</span>
           <span>View more</span>
         </div>
         <div className="cards">
@@ -17,7 +17,7 @@ function Posts() {
             className="card"
           >
             <div className="favorite">
-              <Heart></Heart>
+              
             </div>
             <div className="image">
               <img src="../../../Images/" alt="" />
@@ -35,12 +35,12 @@ function Posts() {
       </div>
       <div className="recommendations">
         <div className="heading">
-          <span>Fresh recommendations</span>
+          <span>Recommendations</span>
         </div>
         <div className="cards">
           <div className="card">
             <div className="favorite">
-              <Heart></Heart>
+            
             </div>
             <div className="image">
               <img src="../../../Images/" alt="" />
