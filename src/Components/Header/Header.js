@@ -1,5 +1,4 @@
 import React from 'react';
-import useDropdownMenu from 'react-accessible-dropdown-menu-hook';
 
 import './Header.css';
 import Search from '../../assets/Search';
