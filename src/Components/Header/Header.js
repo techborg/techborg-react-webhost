@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Header.css';
-import Search from '../../assets/Search';
 import Arrow from '../../assets/Arrow';
 function Header() {
   return (
