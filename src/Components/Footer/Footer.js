@@ -28,7 +28,7 @@ function Footer() {
               <li><button className='list1'>About</button></li>
               <li><button className='list1'>Careers</button></li>
               <li><button className='list1'>Contact Us</button></li>
-              <li><button className='list1'>People</button></li>
+              <li><button className='list1'></button></li>
             </ul>
           </div>
         </div>

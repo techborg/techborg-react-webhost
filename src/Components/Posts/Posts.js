@@ -10,7 +10,7 @@ function Posts() {
       <div className="moreView">
         <div className="heading">
           <span>Acticles</span>
-            <span>View more</span>
+            <span><button className='list1'>View more</button></span>
         </div>
         <div className="cards">
           <div className="card">

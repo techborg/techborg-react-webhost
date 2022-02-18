@@ -12,15 +12,15 @@ function View() {
       </div>
       <div className="rightSection">
         <div className="productDetails">
-          <p>&#x20B9; 250000 </p>
-          <span>YAMAHA R15V3</span>
-          <p>Two Wheeler</p>
-          <span>Tue May 04 2021</span>
+          <p></p>
+          <span></span>
+          <p></p>
+          <span></span>
         </div>
         <div className="contactDetails">
-          <p>Seller details</p>
-          <p>No name</p>
-          <p>1234567890</p>
+          <p></p>
+          <p></p>
+          <p></p>
         </div>
       </div>
     </div>
