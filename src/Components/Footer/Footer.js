@@ -25,7 +25,7 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li>About</li>
+              <li><button className='list1'>About</button></li>
               <li>Careers</li>
               <li>Contact Us</li>
               <li>People</li>

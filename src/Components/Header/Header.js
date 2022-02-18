@@ -1,7 +1,7 @@
 import React from 'react';
-
 import './Header.css';
 import Arrow from '../../assets/Arrow';
+
 function Header() {
   return (
     <div className="headerParentDiv">
@@ -26,19 +26,43 @@ function Header() {
             <Search color="#ffffff"></Search>
           </div>
           </div>*/}
+
           
-          <div className="language">
-          <span>Innovation</span>
-          <Arrow></Arrow>
-        </div>
-          <div className="language">
-          <span>Projects</span>
-          <Arrow></Arrow>
-        </div>
-          <div className="language">
-          <span>Computer Science</span>
-          <Arrow></Arrow>
-        </div>
+          <div class="dropdown">
+          <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Innovation
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+          </div>
+          <div class="dropdown">
+          <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+          </div>
+          <div class="dropdown">
+          <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Computer Science
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+          </div>
+
+          
+          
+          
+      
           <div className="language">
           <span>Robotics</span>
           <Arrow></Arrow>
