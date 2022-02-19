@@ -9,14 +9,14 @@ function Login() {
       <div className="loginParentDiv">
         
         <form>
-          <label htmlFor="fname">Email</label>
+          <label htmlFor="fname">Username/Email</label>
           <br />
           <input
             className="input"
             type="email"
             id="fname"
             name="email"
-            defaultValue="John"
+            defaultValue="John@example.com"
           />
           <br />
           <label htmlFor="lname">Password</label>
@@ -26,7 +26,7 @@ function Login() {
             type="password"
             id="lname"
             name="password"
-            defaultValue="Doe"
+            defaultValue="Abc@123"
           />
           <br />
           <br />

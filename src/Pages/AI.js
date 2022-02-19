@@ -1,15 +1,17 @@
 import React from 'react';
-import Header from '../Components/Header/Header';
-import Login from '../Components/Login/Login';
 
-function LoginPage() {
+import Header from '../Components/Header/Header';
+
+import Footer from '../Components/Footer/Footer';
+
+function AI(props) {
   return (
     <div className="homeParentDiv">
       <Header />
-      <Login />
     
+      <Footer />
     </div>
   );
 }
 
-export default LoginPage;
+export default AI;

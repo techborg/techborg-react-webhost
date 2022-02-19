@@ -9,17 +9,17 @@ function Header() {
       <div className="headerChildDiv">
         <div className="brandName">
           {}
-           <h1>TECHBORG</h1>
+           <h1 onClick={()=>history.push('/')}>TECHBORG</h1>
         </div>          
           <div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Innovation
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Robotics</a>
-          <a class="dropdown-item" href="#">Drones</a>
-          <a class="dropdown-item" href="#">AI</a>
-          <a class="dropdown-item" href="#">Blockchain</a>
+          <a class="dropdown-item" onClick={()=>history.push('/Robotics')}>Robotics</a>
+          <a class="dropdown-item" onClick={()=>history.push('/Drones')}>Drones</a>
+          <a class="dropdown-item" onClick={()=>history.push('/AI')}>AI</a>
+          <a class="dropdown-item" onClick={()=>history.push('/Blockchain')}>Blockchain</a>
           </div>
           </div>
           <div class="dropdown">

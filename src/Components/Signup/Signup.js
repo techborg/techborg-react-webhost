@@ -40,7 +40,7 @@ export default function Signup() {
             onChange={(e)=>setusername(e.target.value)}
             id="fname"
             name="name"
-            defaultValue="John"
+            defaultValue="Johnjose"
           />
           <br />
           <label htmlFor="fname">Email</label>
@@ -52,7 +52,7 @@ export default function Signup() {
             value={email}
             onChange={(e)=>setemail(e.target.value)}
             name="email"
-            defaultValue="John"
+            defaultValue="John@exapmle.com"
           />
           <br />
           <label htmlFor="lname">Phone</label>
@@ -64,7 +64,7 @@ export default function Signup() {
             value={phone}
             onChange={(e)=>setphone(e.target.value)}
             name="phone"
-            defaultValue="Doe"
+            defaultValue="9876543210"
           />
           <br />
           <label htmlFor="lname">Password</label>
@@ -76,7 +76,7 @@ export default function Signup() {
             value={password}
             onChange={(e)=>setpassword(e.target.value)}
             name="password"
-            defaultValue="Doe"
+            defaultValue="Abc@123"
           />
           <br />
           <br />
