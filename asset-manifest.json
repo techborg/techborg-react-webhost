@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/techborg-react-webhost/static/css/main.cbc136a9.css",
+    "main.js": "/techborg-react-webhost/static/js/main.d4eca228.js",
+    "index.html": "/techborg-react-webhost/index.html",
+    "main.cbc136a9.css.map": "/techborg-react-webhost/static/css/main.cbc136a9.css.map",
+    "main.d4eca228.js.map": "/techborg-react-webhost/static/js/main.d4eca228.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbc136a9.css",
+    "static/js/main.d4eca228.js"
+  ]
+}
