@@ -33,8 +33,11 @@ function Login() {
           <button>Login</button>
         </form>
         <a onClick={()=>history.push('/signup')}>Signup</a>
+      
       </div>
+   
     </div>
+    
   );
 }
 

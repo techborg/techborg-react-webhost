@@ -1,13 +1,14 @@
 import React from 'react';
 
 import Signup from '../Components/Signup/Signup';
-import Header from '../Components/Header/Header';
+import Header2 from '../Components/Header2/Header2';
 
 function SignupPage() {
   return (
     <div>
-      <Header />
+      <Header2 />
       <Signup />
+      
     </div>
   );
 }
