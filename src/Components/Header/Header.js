@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Arrow from '../../assets/Arrow';
+
 
 function Header() {
   return (
@@ -18,6 +18,7 @@ function Header() {
           <a class="dropdown-item" href="#">Robotics</a>
           <a class="dropdown-item" href="#">Drones</a>
           <a class="dropdown-item" href="#">AI</a>
+          <a class="dropdown-item" href="#">Blockchain</a>
           </div>
           </div>
           <div class="dropdown">
@@ -45,15 +46,19 @@ function Header() {
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="#">Articles</a>
-          <a class="dropdown-item" href="#">About Us</a>
+          <a class="dropdown-item" href="#">Blog</a>
           </div>
           </div>                         
          <div className="loginPage">
          <span><button className='list1'>Login</button></span>
-         <hr />
+         </div>
+         <div className="Signup">
+         <span><button className='list1'>Signup</button></span>
         </div>
+        <hr />
       </div>
     </div>
+    
   );
 }
 

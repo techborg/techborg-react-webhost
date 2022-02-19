@@ -12,10 +12,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1'></button></li>
-            <li><button className='list1'></button></li>
-            <li><button className='list1'></button></li>
-            <li><button className='list1'></button></li>
+            <li><button className='list1'>C++</button></li>
+            <li><button className='list1'>Web Programming</button></li>
+            <li><button className='list1'>Smart Device Programming</button></li>
+            <li><button className='list1'>Java</button></li>
             </ul>
           </div>
         </div>
@@ -26,9 +26,9 @@ function Footer() {
           <div className="list">
             <ul>
               <li><button className='list1'>About</button></li>
+              <li><button className='list1'>Community</button></li>
               <li><button className='list1'>Careers</button></li>
               <li><button className='list1'>Contact Us</button></li>
-              <li><button className='list1'></button></li>
             </ul>
           </div>
         </div>
@@ -40,8 +40,8 @@ function Footer() {
             <ul>
             <li><button className='list1'>Help</button></li>
             <li><button className='list1'>Sitemap</button></li>
-            <li><button className='list1'>Legal & Privacy information</button></li>
-            <li><button className='list1'></button></li>
+            <li><button className='list1'>Legal information</button></li>
+            <li><button className='list1'>Privacy policy</button></li>
             </ul>
           </div>
         </div>

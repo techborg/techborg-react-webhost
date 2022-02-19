@@ -20,17 +20,13 @@ function Posts() {
         <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
-              <p className=""> </p>
-              <span className=""></span>
-              <p className="name">C</p>
+              <p className=""></p>
+              <span className="">C</span>
+              <p className=""></p>
             </div>
-            <div className="date">
-              <span></span>
-            </div>
-          
+            <div className="date">     
+            </div>      
           </div>
-          
-          
         </div>
         
       </div>
@@ -91,6 +87,43 @@ function Posts() {
             </div>
           </div>
         </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image">
+              <img src="../../../Images/weblang/angular.png" alt="" />
+            </div>
+            <div className="content">
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">Angular</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image">
+              <img src="../../../Images/prolang/python.png" alt="" />
+            </div>
+            <div className="content">
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">Python</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        
         </div> 
       </div>
       
