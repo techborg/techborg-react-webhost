@@ -1,7 +1,9 @@
 import React from 'react';
 import './Login.css';
+import {useHistory} from 'react-router-dom'
 
 function Login() {
+  const history = useHistory()
   return (
     <div>
       <div className="loginParentDiv">
@@ -30,7 +32,7 @@ function Login() {
           <br />
           <button>Login</button>
         </form>
-        <a>Signup</a>
+        <a onClick={()=>history.push('/signup')}>Signup</a>
       </div>
     </div>
   );

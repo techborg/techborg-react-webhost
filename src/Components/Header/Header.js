@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.css';
-
+import {useHistory} from 'react-router-dom'
 
 function Header() {
+  const history = useHistory()
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
@@ -50,10 +51,10 @@ function Header() {
           </div>
           </div>                         
          <div className="loginPage">
-         <span><button className='list1'>Login</button></span>
+         <span><button className='list1' onClick={()=>history.push('/login')} >Login</button></span>
          </div>
          <div className="Signup">
-         <span><button className='list1'>Signup</button></span>
+         <span><button className='list1' onClick={()=>history.push('/signup')}>Signup</button></span>
         </div>
         <hr />
       </div>
