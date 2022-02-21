@@ -2,7 +2,6 @@
   "name": "techborg",
   "version": "1.1.0",
   "private": true, 
-  "homepage": "https://techborg.github.io/techborg-react-webhost/",
   "engines": {
     "node": "14.17.4"
   },
@@ -23,8 +22,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './Footer.css';
+import {useHistory} from 'react-router-dom'
 
 
 
 function Footer() {
+  const history = useHistory()
   return (
     <div className="footerParentDiv">
       <div className="content">
@@ -14,10 +16,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1'>C++</button></li>
-            <li><button className='list1'>Web Programming</button></li>
-            <li><button className='list1'>Smart Device Programming</button></li>
-            <li><button className='list1'>Java</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>C++</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Web Programming</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Smart Device Programming</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Java</button></li>
             </ul>
           </div>
         </div>
@@ -27,10 +29,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-              <li><button className='list1'>About</button></li>
-              <li><button className='list1'>Community</button></li>
-              <li><button className='list1'>Careers</button></li>
-              <li><button className='list1'>Contact Us</button></li>
+              <li><button className='list1' onClick={()=>history.push('/aboutus/about')}>About</button></li>
+              <li><button className='list1' onClick={()=>history.push('/')}>Community</button></li>
+              <li><button className='list1' onClick={()=>history.push('/aboutus/careers')}>Careers</button></li>
+              <li><button className='list1' onClick={()=>history.push('/aboutus/contactus')}>Contact Us</button></li>
             </ul>
           </div>
         </div>
@@ -40,10 +42,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1'>Help</button></li>
-            <li><button className='list1'>Sitemap</button></li>
-            <li><button className='list1'>Legal information</button></li>
-            <li><button className='list1'>Privacy policy</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Help</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Sitemap</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Legal information</button></li>
+            <li><button className='list1' onClick={()=>history.push('/')}>Privacy policy</button></li>
             </ul>
           </div>
         </div>
@@ -51,7 +53,7 @@ function Footer() {
       
       <div className="footer">
         
-        <p>TechBorg © 2018-2022</p>
+        <p onClick={()=>history.push('/')}>TechBorg © 2018-2022</p>
         <p> </p>
   
         </div>

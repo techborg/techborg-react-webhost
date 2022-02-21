@@ -16,10 +16,10 @@ function Header() {
           Innovation
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" onClick={()=>history.push('/Robotics')}>Robotics</a>
-          <a class="dropdown-item" onClick={()=>history.push('/Drones')}>Drones</a>
-          <a class="dropdown-item" onClick={()=>history.push('/AI')}>AI</a>
-          <a class="dropdown-item" onClick={()=>history.push('/Blockchain')}>Blockchain</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Robotics')}>Robotics</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Drones')}>Drones</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/AI')}>AI</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Blockchain')}>Blockchain</a>
           </div>
           </div>
           <div class="dropdown">
@@ -27,8 +27,8 @@ function Header() {
           Projects
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Hardware</a>
-          <a class="dropdown-item" href="#">Software</a>
+          <a class="dropdown-item"  onClick={()=>history.push('/projects/hardware')}>Hardware</a>
+          <a class="dropdown-item"  onClick={()=>history.push('/projects/software')}>Software</a>
           </div>
           </div>
           <div class="dropdown">
@@ -36,9 +36,9 @@ function Header() {
           Computer Science
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Computer Engineering</a>
-          <a class="dropdown-item" href="#">Computer Hardware Engineering</a>
-          <a class="dropdown-item" href="#">Information Technology</a>
+          <a class="dropdown-item" onClick={()=>history.push('/cs/ce')}>Computer Engineering</a>
+          <a class="dropdown-item" onClick={()=>history.push('/cs/che')}>Computer Hardware Engineering</a>
+          <a class="dropdown-item" onClick={()=>history.push('/cs/it')}>Information Technology</a>
           </div>
           </div>
           <div class="dropdown">
@@ -46,8 +46,8 @@ function Header() {
           Menu
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Articles</a>
-          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" onClick={()=>history.push('/menu/articles')}>Articles</a>
+          <a class="dropdown-item" onClick={()=>history.push('/menu/blog')}>Blog</a>
           </div>
           </div>                         
          <div className="loginPage">

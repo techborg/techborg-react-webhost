@@ -2,21 +2,22 @@ import React from 'react';
 
 
 import './Post.css';
+import {useHistory} from 'react-router-dom'
 
 function Posts() {
-
+  const history = useHistory()
   return (
     <div className="postParentDiv">
       <div className="moreView">
         <div className="heading">
           <span>Acticles</span>
-            <span><button className='list1'>View more</button></span>
+            <span><button className='list1' onClick={()=>history.push('/')}>View more</button></span>
         </div>
         <div className="cards">
           <div className="card">
            <div className="favorite">        
         </div>
-        <div className="image">
+        <div className="image" onClick={()=>history.push('/')}>
         <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
@@ -39,7 +40,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image">
+            <div className="image" onClick={()=>history.push('/')}>
               <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
@@ -56,7 +57,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image">
+            <div className="image" onClick={()=>history.push('/')}>
               <img src="../../../Images/event/2.png" alt="" />
             </div>
             <div className="content">
@@ -74,7 +75,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image">
+            <div className="image" onClick={()=>history.push('/')}>
               <img src="../../../Images/event/3.png" alt="" />
             </div>
             <div className="content">
@@ -92,7 +93,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image">
+            <div className="image" onClick={()=>history.push('/')}>
               <img src="../../../Images/weblang/angular.png" alt="" />
             </div>
             <div className="content">
@@ -110,7 +111,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image">
+            <div className="image" onClick={()=>history.push('/')}>
               <img src="../../../Images/prolang/python.png" alt="" />
             </div>
             <div className="content">
