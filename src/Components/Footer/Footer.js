@@ -2,8 +2,7 @@ import React from 'react';
 
 import './Footer.css';
 import {useHistory} from 'react-router-dom'
-
-
+import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
   const history = useHistory()
@@ -54,7 +53,7 @@ function Footer() {
       <div className="footer">
         
         <p onClick={()=>history.push('/')}>TechBorg © 2018-2022</p>
-        <p> </p>
+        <SocialIcon  url="https://twitter.com/jaketrent"/>
   
         </div>
       </div>
