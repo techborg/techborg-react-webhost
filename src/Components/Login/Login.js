@@ -8,7 +8,7 @@ const [email,setemail]=useState('')
 const [password,setpassword]=useState('')
 const {firebase}=useContext(FirebaseContext)
 const history =useHistory()
-const handlelognin=(e)=>{
+const Handlelognin=(e)=>{
      e.preventDefault()
      firebase.auth().signInWithEmailAndPassword(email,password).then(()=>{
        history.push('/')
@@ -20,7 +20,7 @@ const handlelognin=(e)=>{
     <div>
       <div className="loginParentDiv">
         
-        <form onSubmit={handlelognin}>
+        <form onSubmit={Handlelognin}>
           <label htmlFor="fname">Email</label>
           <br />
           <input
