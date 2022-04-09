@@ -5,14 +5,17 @@ import { useContext } from 'react';
 import {FirebaseContext} from '../../store/FirebaseContext'
 function Login() {
 const [email,setemail]=useState('')
+
+
 const [password,setpassword]=useState('')
 const {firebase}=useContext(FirebaseContext)
 const history =useHistory()
-const Handlelognin=(e)=>{
+const handlelognin=(e)=>{
      e.preventDefault()
      firebase.auth().signInWithEmailAndPassword(email,password).then(()=>{
        history.push('/')
      }).catch((error)=>{
+
        alert(error.messege)
      })
 }
@@ -20,7 +23,7 @@ const Handlelognin=(e)=>{
     <div>
       <div className="loginParentDiv">
         
-        <form onSubmit={Handlelognin}>
+        <form onSubmit={handlelognin}>
           <label htmlFor="fname">Email</label>
           <br />
           <input
