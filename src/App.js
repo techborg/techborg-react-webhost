@@ -24,17 +24,19 @@ import IT from './Pages/cs/it'
 import About from './Pages/aboutus/about'
 import Careers from './Pages/aboutus/careers';
 import Contact from './Pages/aboutus/contactus';
-import { useEffect } from 'react/cjs/react.production.min';
+import { useEffect } from 'react';
 
 
 
 
 function App() { 
-// const {firebase}=useContext(FirebaseContext)
-// const {setuser}=useContext(Authcontext)
-// useEffect(()=>{
-
-// })
+const {firebase}=useContext(FirebaseContext)
+const {setuser}=useContext(Authcontext)
+useEffect(()=>{
+  firebase.auth().onAuthStateChanged((user=>{
+    setuser(user)
+  }))
+}) 
   return (
     <div>
       <Router>
