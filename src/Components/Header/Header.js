@@ -16,10 +16,10 @@ function Header() {
           Innovation
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/Robotics')}>Robotics</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/Drones')}>Drones</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/AI')}>AI</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/Blockchain')}>Blockchain</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/robotics')}>Robotics</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/drones')}>Drones</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/ai')}>AI</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/blockchain')}>Blockchain</a>
           </div>
           </div>
           <div class="dropdown">
