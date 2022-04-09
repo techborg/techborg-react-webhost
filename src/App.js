@@ -30,11 +30,11 @@ import { useEffect } from 'react/cjs/react.production.min';
 
 
 function App() { 
-const {firebase}=useContext(FirebaseContext)
-const {setuser}=useContext(Authcontext)
-useEffect(()=>{
-  
-})
+// const {firebase}=useContext(FirebaseContext)
+// const {setuser}=useContext(Authcontext)
+// useEffect(()=>{
+
+// })
   return (
     <div>
       <Router>
