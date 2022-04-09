@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useContext } from 'react';
 import './App.css';
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 
+import { Authcontext, FirebaseContext } from './store/FirebaseContext';
 
 /**
  * ?  =====Import Components=====
@@ -23,11 +24,17 @@ import IT from './Pages/cs/it'
 import About from './Pages/aboutus/about'
 import Careers from './Pages/aboutus/careers';
 import Contact from './Pages/aboutus/contactus';
+import { useEffect } from 'react/cjs/react.production.min';
 
 
 
 
 function App() { 
+const {firebase}=useContext(FirebaseContext)
+const {setuser}=useContext(Authcontext)
+useEffect(()=>{
+  
+})
   return (
     <div>
       <Router>

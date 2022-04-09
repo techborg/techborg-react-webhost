@@ -7,7 +7,6 @@ function Header() {
   const {user}=useContext(Authcontext)
   const {firebase}=useContext(FirebaseContext)
   const history = useHistory()
-  
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
