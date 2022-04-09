@@ -14,7 +14,7 @@ function Drones() {
         
       <div className="recommendations">
         <div className="heading">
-          <span>Robotics</span>
+          <span>Drones</span>
         </div>
         <div className="cards">
           <div className="card">

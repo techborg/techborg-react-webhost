@@ -3,15 +3,18 @@ import React from 'react';
 import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
+import Banner from '../../Components/Banner/Banner';
+import Software from '../../Components/Software/Software';
 
-function Software(props) {
+function software(props) {
   return (
     <div className="homeParentDiv">
       <Header />
-    
+      <Banner />
+      <Software />
       <Footer />
     </div>
   );
 }
 
-export default Software;
+export default software;

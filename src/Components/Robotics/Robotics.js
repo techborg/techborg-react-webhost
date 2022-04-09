@@ -22,7 +22,7 @@ function Robotics() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/" alt="" />
+              <img src="../../../Images/Inn/rb/" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -39,7 +39,7 @@ function Robotics() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/" alt="" />
+              <img src="../../../Images/Inn/rb/" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -57,7 +57,7 @@ function Robotics() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/" alt="" />
+              <img src="../../../Images/Inn/rb/" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
