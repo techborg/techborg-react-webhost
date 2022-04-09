@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import './Header.css';
 import {useHistory} from 'react-router-dom'
+import { Authcontext, FirebaseContext } from '../../store/FirebaseContext';
 
 function Header() {
+  const {user}=useContext(Authcontext)
+  const {firebase}=useContext(FirebaseContext)
   const history = useHistory()
+  
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
@@ -16,10 +20,10 @@ function Header() {
           Innovation
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/robotics')}>Robotics</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/drones')}>Drones</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/ai')}>AI</a>
-          <a class="dropdown-item" onClick={()=>history.push('/innovation/blockchain')}>Blockchain</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Robotics')}>Robotics</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Drones')}>Drones</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/AI')}>AI</a>
+          <a class="dropdown-item" onClick={()=>history.push('/innovation/Blockchain')}>Blockchain</a>
           </div>
           </div>
           <div class="dropdown">
@@ -56,6 +60,9 @@ function Header() {
          <div className="Signup">
          <span><button className='list1' onClick={()=>history.push('/signup')}>Signup</button></span>
         </div>
+        <span>{user ? ` Welcome ${user.displayName}` :'Login'}</span>
+        <span><button className='list1' onClick={()=>history.push('/signup')}>Logout</button></span>
+
         <hr />
       </div>
     </div>
