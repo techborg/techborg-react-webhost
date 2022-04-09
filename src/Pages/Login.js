@@ -9,7 +9,7 @@ function LoginPage() {
     <div className="homeParentDiv">
       <Header2 />
       <Login />
-      <Footer2 />
+      
     </div>
   );
 }

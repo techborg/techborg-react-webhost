@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
 
-function CE(props) {
+function ce(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +14,4 @@ function CE(props) {
   );
 }
 
-export default CE;
+export default ce;

@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
 
-function Careers(props) {
+function careers(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +14,4 @@ function Careers(props) {
   );
 }
 
-export default Careers;
+export default careers;

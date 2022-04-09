@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
 
-function Contact(props) {
+function contactus(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +14,4 @@ function Contact(props) {
   );
 }
 
-export default Contact;
+export default contactus;

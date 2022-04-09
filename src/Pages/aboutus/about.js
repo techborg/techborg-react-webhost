@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
 
-function About(props) {
+function about(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +14,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default about;

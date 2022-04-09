@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header';
 
 import Footer from '../../Components/Footer/Footer';
 
-function IT(props) {
+function it(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +14,4 @@ function IT(props) {
   );
 }
 
-export default IT;
+export default it;

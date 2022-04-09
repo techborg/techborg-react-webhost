@@ -1,10 +1,9 @@
 import React from 'react';
 
 import Header from '../../Components/Header/Header';
-
 import Footer from '../../Components/Footer/Footer';
 
-function Blockchain(props) {
+function blockchain(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -14,4 +13,4 @@ function Blockchain(props) {
   );
 }
 
-export default Blockchain;
+export default blockchain;
