@@ -1,10 +1,11 @@
 import React from 'react';
 
 
-import './AI.css';
+import './Hardware.css';
 import {useHistory} from 'react-router-dom'
 
-function AI() {
+
+function Hardware() {
   const history = useHistory()
   return (
     <div className="postParentDiv">
@@ -14,7 +15,7 @@ function AI() {
         
       <div className="recommendations">
         <div className="heading">
-          <span>AI</span>
+          <span>Hardware Projects</span>
         </div>
         <div className="cards">
           <div className="card">
@@ -27,7 +28,7 @@ function AI() {
             <div className="content">
               <p className=""> </p>
               <span className=""></span>
-              <p className="name">Deep Learning</p>
+              <p className="name">Air Pollution Monitor System</p>
             </div>
             <div className="date">
               <span></span>
@@ -44,7 +45,7 @@ function AI() {
             <div className="content">
               <p className=""> </p>
               <span className=""></span>
-              <p className="name">Machine Learning</p>
+              <p className="name"></p>
             </div>
             <div className="date">
               <span></span>
@@ -62,7 +63,7 @@ function AI() {
             <div className="content">
               <p className=""> </p>
               <span className=""></span>
-              <p className="name">Neural Network</p>
+              <p className="name"></p>
             </div>
             <div className="date">
               <span></span>
@@ -79,4 +80,4 @@ function AI() {
   );
 }
 
-export default AI;
+export default Hardware;
