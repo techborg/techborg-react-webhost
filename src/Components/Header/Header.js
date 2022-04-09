@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import './Header.css';
 import {useHistory} from 'react-router-dom'
+import { Authcontext, FirebaseContext } from '../../store/FirebaseContext';
 
 function Header() {
+  const {user}=useContext(Authcontext)
+  const {firebase}=useContext(FirebaseContext)
   const history = useHistory()
+  
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
@@ -56,6 +60,7 @@ function Header() {
          <div className="Signup">
          <span><button className='list1' onClick={()=>history.push('/signup')}>Signup</button></span>
         </div>
+        <span>{user ? ` Welcome ${user.displayName}` :'Login'}</span>
         <span><button className='list1' onClick={()=>history.push('/signup')}>Logout</button></span>
 
         <hr />
