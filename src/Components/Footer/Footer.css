@@ -18,8 +18,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: #002f34;
-  color: whitesmoke;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .footerParentDiv .footer p {

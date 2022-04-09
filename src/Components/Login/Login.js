@@ -48,7 +48,7 @@ const Handlelognin=(e)=>{
           <br />
           <button>Login</button>
         </form>
-        <a>Signup</a>
+        <a onClick={()=>history.push('/signup')}>Signup</a>
       
       </div>
    
