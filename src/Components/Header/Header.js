@@ -54,14 +54,14 @@ function Header() {
           </div>
           </div>                         
          <div className="loginPage">
-         <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` :'Login'} </button> </span>
+         <span> <button className='list1' onClick={()=>history.push('/login')}> {user ?`Welcome ${user.displayName}`:'Login'} </button> </span>
          </div>
           <button className='list1'>{ user&& <span onClick={()=>{
            firebase.auth().signOut()
            history.push('/login')
          }}>Logout</span> }</button> 
          <div className="Signup">
-        : <span><button className='list1' onClick={()=>history.push('/signup')}> { user ? ''  :'Signup'}</button></span>
+        : <span><button className='list1' onClick={()=>history.push('/signup')}> {user ?'':'Signup'}</button></span>
         </div>
         
        
