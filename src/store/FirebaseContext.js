@@ -6,10 +6,8 @@ import { createContext,useState } from "react";
   {
      const [user,setuser]=useState()
    return (
-     (<div>
      <Authcontext.Provider value={{user,setuser}}>
       {children}
-     </Authcontext.Provider>
-     </div>)
+     </Authcontext.Provider>   
    )
  }
