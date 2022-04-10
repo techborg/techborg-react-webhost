@@ -55,7 +55,6 @@ function Header() {
           </div>    
                         
          <div className="loginPage">
-<<<<<<< HEAD
                   
 
 
@@ -64,9 +63,7 @@ function Header() {
 
 
          {/* <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` : <button>Login</button> } </button> </span>  */}
-=======
-         <span> <button className='list1' onClick={()=>history.push('/login')}> {user ?`Welcome ${user.displayName}`:'Login'} </button> </span>
->>>>>>> e396da173ad02736971e2aab2fdfb2a5bfedc1da
+        
          </div>
           <button className='list1'>{ user&& <span onClick={()=>{
            firebase.auth().signOut()
