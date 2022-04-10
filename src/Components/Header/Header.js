@@ -52,9 +52,17 @@ function Header() {
           <a class="dropdown-item" onClick={()=>history.push('/menu/articles')}>Articles</a>
           <a class="dropdown-item" onClick={()=>history.push('/menu/blog')}>Blog</a>
           </div>
-          </div>                         
+          </div>    
+                        
          <div className="loginPage">
-         <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` :'Login'} </button> </span>
+                  
+
+
+         <span>{user ? ` Welcome ${user.displayName}` : <button className='list1' onClick={()=>history.push('/login')}>Login</button> }  </span>
+
+
+
+         {/* <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` : <button>Login</button> } </button> </span>  */}
          </div>
           <button className='list1'>{ user&& <span onClick={()=>{
            firebase.auth().signOut()
