@@ -2,18 +2,18 @@ import React from 'react';
 
 import Header from '../../Components/Header/Header';
 import Bannerwhite from '../../Components/Bannerwhite/Bannerwhite';
-import About from '../../Components/About/About'
+import Privacypolicy from '../../Components/Privacypolicy/Privacypolicy'
 import Footer from '../../Components/Footer/Footer';
 
-function about(props) {
+function privacypolicy(props) {
   return (
     <div className="homeParentDiv">
       <Header />
       <Bannerwhite />
-      <About />
+      <Privacypolicy />
       <Footer />
     </div>
   );
 }
 
-export default about;
+export default privacypolicy;
