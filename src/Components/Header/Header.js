@@ -63,6 +63,7 @@ function Header() {
 
 
          {/* <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` : <button>Login</button> } </button> </span>  */}
+        
          </div>
           <button className='list1'>{ user&& <span onClick={()=>{
            firebase.auth().signOut()
