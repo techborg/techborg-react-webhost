@@ -9,10 +9,10 @@ export default function Context({children})
   {
      const [user,setuser]=useState()
    return (
-     (
+     (<div>
      <Authcontext.Provider value={{user,setuser}}>
       {children}
      </Authcontext.Provider>
-     )
+     </div>)
    )
  }
