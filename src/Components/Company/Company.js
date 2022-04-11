@@ -15,7 +15,7 @@ function Company() {
         <ButtonGroup aria-label="Basic example">
         <Button variant="secondary" onClick={()=>history.push('/aboutus/About')}>About Us</Button>
         <Button variant="secondary" onClick={()=>history.push('/aboutus/Company')}>Company</Button>
-        <Button variant="secondary" onClick={()=>history.push('/aboutus/Team')}>Team</Button>
+        <Button variant="secondary" onClick={()=>history.push('/aboutus/team')}>Team</Button>
         </ButtonGroup>
         
        

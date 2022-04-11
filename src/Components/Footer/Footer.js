@@ -41,10 +41,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1' onClick={()=>history.push('/')}>Help</button></li>
+            <li><button className='list1' onClick={()=>history.push('/help')}>Help</button></li>
             <li><button className='list1' onClick={()=>history.push('/')}>Sitemap</button></li>
-            <li><button className='list1' onClick={()=>history.push('/')}>Legal information</button></li>
-            <li><button className='list1' onClick={()=>history.push('/')}>Privacy policy</button></li>
+            <li><button className='list1' onClick={()=>history.push('/legalinformation')}>Legal information</button></li>
+            <li><button className='list1' onClick={()=>history.push('/privacypolicy')}>Privacy policy</button></li>
             </ul>
           </div>
         </div>

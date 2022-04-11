@@ -24,6 +24,12 @@ import IT from './Pages/cs/it'
 import About from './Pages/aboutus/about'
 import Careers from './Pages/aboutus/careers';
 import Contact from './Pages/aboutus/contactus';
+import Help from './Pages/help';
+import Legalinformation from './Pages/legalinformation';
+import Privacypolicy from './Pages/privacypolicy';
+import Company from './Pages/aboutus/company';
+import Team from './Pages/aboutus/team';
+
 import { useEffect } from 'react';
 
 
@@ -92,6 +98,24 @@ useEffect(()=>{
          <Route path='/aboutus/contactus'>
           <Contact />
          </Route> 
+         <Route path='/help'>
+          <Help />
+         </Route>
+         <Route path='/legalinformation'>
+          <Legalinformation />
+         </Route> 
+         <Route path='/privacypolicy'>
+          <Privacypolicy />
+         </Route> 
+         <Route path='/aboutus/company'>
+          <Company />
+         </Route> 
+         <Route path='/aboutus/team'>
+          <Team />
+         </Route> 
+         
+
+
            
       </Router>
       
