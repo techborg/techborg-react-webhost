@@ -63,7 +63,7 @@ function Software() {
             <div className="content">
               <p className=""> </p>
               <span className=""></span>
-              <p className="name"></p>
+              <p className="name">Library Management System</p>
             </div>
             <div className="date">
               <span></span>

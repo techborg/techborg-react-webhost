@@ -11,11 +11,12 @@ function Posts() {
       <div className="moreView">
         <div className="heading">
           <span>Acticles</span>
-            <span><button className='list1' onClick={()=>history.push('/')}>View more</button></span>
+            <span><button className='list1' onClick={()=>history.push('/menu/articles')}>View more</button></span>
         </div>
-        <div className="cards">
+
+        <div className="recommendations">
           <div className="card">
-           <div className="favorite">        
+           <div className="">        
         </div>
         <div className="image" onClick={()=>history.push('/')}>
         <img src="../../../Images/prolang/c.png" alt="" />
@@ -27,8 +28,30 @@ function Posts() {
             </div>
             <div className="date">     
             </div>      
-          </div>
+            </div>
+        
+
+        
+          <div className="recommendations">
+            <div className="card">
+              <div className="">  
+
         </div>
+        <div className="image" onClick={()=>history.push('/')}>
+        <img src="../../../Images/prolang/c.png" alt="" />
+            </div>
+            <div className="content">
+              <p className=""></p>
+              <span className="">C++</span>
+              <p className=""></p>
+            </div>
+            <div className="date">     
+            </div>      
+          </div>
+          </div>
+        
+          </div>
+        
         
       </div>
       <div className="recommendations">
@@ -126,9 +149,11 @@ function Posts() {
         </div>
         
         </div> 
+        
       </div>
       
     </div>
+    
   );
 }
 

@@ -18,6 +18,18 @@ function Company() {
         <Button variant="secondary" onClick={()=>history.push('/aboutus/team')}>Team</Button>
         </ButtonGroup>
         
+
+        <h3></h3>
+            
+            <p>TechBorg</p>
+            
+			<p></p>
+
+                             
+			<h2></h2>
+			
+			<p></p>
+       
        
         </div>
     
