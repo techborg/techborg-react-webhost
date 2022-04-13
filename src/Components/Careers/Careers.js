@@ -84,9 +84,7 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo1.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
                     Development Team Lead
@@ -118,12 +116,10 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo2.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
-                    Make my website responsive device compatible
+                   UI Designer
                   </h5>
                   <div class="detail-info">
                     <h6>
@@ -135,7 +131,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;2000 - &#x20B9;3400
+                      &#x20B9;20,000 - &#x20B9;30,000
                       </span>
                     </h6>
                   </div>
@@ -159,9 +155,7 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo3.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
                     Looking Graphic Designer
@@ -193,9 +187,7 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo6.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
                   Looking Angular Developer
@@ -227,9 +219,7 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo5.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
                     Looking React Developer
@@ -261,9 +251,7 @@ function Careers() {
           <div class="col-lg-6">
             <div class="box">
               <div class="job_content-box">
-                <div class="img-box">
-                  <img src="images/job_logo4.png" alt=""/>
-                </div>
+                
                 <div class="detail-box">
                   <h5>
                     Hiring Web Designer
