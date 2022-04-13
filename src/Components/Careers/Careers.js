@@ -2,7 +2,8 @@ import React from 'react';
 
 
 import './Careers.css';
-import {Button,ButtonGroup} from 'react-bootstrap';
+import './style.css';
+import './responsive.css';
 import {useHistory} from 'react-router-dom'
 
 function Careers() {
@@ -29,7 +30,7 @@ function Careers() {
             </div>
           </div>
         </div>
-        <div class="find_container ">
+        <div class="find_container " >
           <div class="container">
             <div class="row">
               <div class="col">
@@ -53,39 +54,17 @@ function Careers() {
                         <option value="Normal distribution ">Web Developer</option>
                         <option value="Normal distribution ">Graphic Designer</option>
                         <option value="Normal distribution ">Content Writer</option>
-                        <option value="Normal distribution ">React Developer</option>
-                        <option value="Normal distribution ">Angular Developer</option>
                       </select>
                     </div>
                     <div class="form-group col-lg-3">
-                      <div class="btn-box">
-                        <button type="submit" class="btn ">Submit Now</button>
+                      <div class="btn-box" border='1'>
+                        <button type="submit" class="btn ">Search Now</button>
                       </div>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            <ul class="job_check_list">
-              <li class=" ">
-                <input id="checkbox_qu_01" type="checkbox" class="styled-checkbox"/>
-                <label for="checkbox_qu_01">
-                  Freelancer
-                </label>
-              </li>
-              <li class=" ">
-                <input id="checkbox_qu_02" type="checkbox" class="styled-checkbox"/>
-                <label for="checkbox_qu_02">
-                  Part Time
-                </label>
-              </li>
-              <li class=" ">
-                <input id="checkbox_qu_03" type="checkbox" class="styled-checkbox"/>
-                <label for="checkbox_qu_03">
-                  Full Time
-                </label>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -116,7 +95,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        Washington. D.C.
+                      Bengaluru
                       </span>
                     </h6>
                     <h6>
@@ -150,7 +129,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        New York
+                      Kochi
                       </span>
                     </h6>
                     <h6>
@@ -185,13 +164,13 @@ function Careers() {
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Looking Graphic Designer (Logo + UI)
+                    Looking Graphic Designer
                   </h5>
                   <div class="detail-info">
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        Washington. D.C.
+                        Chennai
                       </span>
                     </h6>
                     <h6>
@@ -219,13 +198,13 @@ function Careers() {
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Are you Typography Expert?
+                  Looking Angular Developer
                   </h5>
                   <div class="detail-info">
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        New York
+                      Bengaluru
                       </span>
                     </h6>
                     <h6>
@@ -253,19 +232,19 @@ function Careers() {
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Looking WordPress Developer for ThemeForest
+                    Looking React Developer
                   </h5>
                   <div class="detail-info">
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        Washington. D.C.
+                        Kochi
                       </span>
                     </h6>
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;4000 - &#x20B9;5400
+                      &#x20B9;8,000 - &#x20B9;10,000
                       </span>
                     </h6>
                   </div>
@@ -287,19 +266,19 @@ function Careers() {
                 </div>
                 <div class="detail-box">
                   <h5>
-                    Hiring Web Designer for Project
+                    Hiring Web Designer
                   </h5>
                   <div class="detail-info">
                     <h6>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       <span>
-                        Washington. D.C.
+                        Chennai
                       </span>
                     </h6>
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;3500 - &#x20B9;4500
+                      &#x20B9;13,000 - &#x20B9;15,000
                       </span>
                     </h6>
                   </div>
@@ -315,10 +294,14 @@ function Careers() {
           </div>
         </div>
       </div>
-      <div class="col-lg-5 col-md-8 mx-auto">
-      <Button variant="secondary" onClick={()=>history.push('/')}>View All</Button>
+      
+      <div class="btn-box">
+        <a href="">
+          View All
+        </a>
       </div>
-    </div>
+      </div>
+    
   </section>
   <section class="expert_section layout_padding">
     <div class="container">
@@ -431,7 +414,7 @@ function Careers() {
       </div>
       <div class="btn-box">
         <a href="">
-          View All Freelancers
+          View All
         </a>
       </div>
     </div>
