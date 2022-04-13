@@ -99,7 +99,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;12000 - &#x20B9;13000
+                      &#x20B9;12,000 - &#x20B9;13,000
                       </span>
                     </h6>
                   </div>
@@ -170,7 +170,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;12000/mo
+                      &#x20B9;12,000 - &#x20B9;19,000
                       </span>
                     </h6>
                   </div>
@@ -202,7 +202,7 @@ function Careers() {
                     <h6>
                       <i class="fa fa-money" aria-hidden="true"></i>
                       <span>
-                      &#x20B9;5600 - &#x20B9;9000
+                      &#x20B9;5,000 - &#x20B9;9,000
                       </span>
                     </h6>
                   </div>
@@ -295,7 +295,7 @@ function Careers() {
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          LOOKING FOR EXPERTS?
+          OUR TEAM
         </h2>
         <p>
           Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
@@ -306,18 +306,18 @@ function Careers() {
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="images/e1.jpg" alt=""/>
+              <img src="Images/team/shaunsebastian.jpg" alt=""/>
             </div>
             <div class="detail-box">
               <a href="">
-                Martin Anderson
+                Shaun Sebastian
               </a>
               <h6 class="expert_position">
                 <span>
-                  Web Anaylzer
+                  Founder
                 </span>
                 <span>
-                  41 Jobs Done
+                  
                 </span>
               </h6>
               <span class="expert_rating">
@@ -342,14 +342,14 @@ function Careers() {
             </div>
             <div class="detail-box">
               <a href="">
-                Semanta Klores
+                Mahesh MB
               </a>
               <h6 class="expert_position">
                 <span>
-                  Graphic Designer
+                  React Developer
                 </span>
                 <span>
-                  32 Jobs Done
+                  
                 </span>
               </h6>
               <span class="expert_rating">
@@ -374,14 +374,14 @@ function Careers() {
             </div>
             <div class="detail-box">
               <a href="">
-                Ryan Martines
+              Akhil George
               </a>
               <h6 class="expert_position">
                 <span>
-                  SEO Expert
+                Robotics Lead
                 </span>
                 <span>
-                  27 Jobs Done
+                  
                 </span>
               </h6>
               <span class="expert_rating">
@@ -401,7 +401,7 @@ function Careers() {
         </div>
       </div>
       <div class="btn-box">
-        <a href="">
+        <a href="/aboutus/team">
           View All
         </a>
       </div>
