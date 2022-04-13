@@ -44,7 +44,7 @@ function Blockchain() {
             <div className="content">
               <p className=""> </p>
               <span className=""></span>
-              <p className="name"></p>
+              <p className="name">Cryptocurrency</p>
             </div>
             <div className="date">
               <span></span>

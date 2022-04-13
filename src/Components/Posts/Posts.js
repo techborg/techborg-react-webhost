@@ -37,8 +37,8 @@ function Posts() {
               <div className="">  
 
         </div>
-        <div className="image" onClick={()=>history.push('/')}>
-        <img src="../../../Images/prolang/c.png" alt="" />
+        <div  className="image" onClick={()=>history.push('/')}>
+        <img src="../../../Images/prolang/cpp.png" alt="" />
             </div>
             <div className="content">
               <p className=""></p>
