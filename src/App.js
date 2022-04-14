@@ -25,7 +25,7 @@ import About from './Pages/aboutus/about'
 import Careers from './Pages/aboutus/careers';
 import Contact from './Pages/aboutus/contactus';
 import Help from './Pages/help';
-import Legalinformation from './Pages/legalinformation';
+import Legalinformation from './Pages/termsofuse';
 import Privacypolicy from './Pages/privacypolicy';
 import Company from './Pages/aboutus/company';
 import Team from './Pages/aboutus/team';
@@ -101,7 +101,7 @@ useEffect(()=>{
          <Route path='/help'>
           <Help />
          </Route>
-         <Route path='/legalinformation'>
+         <Route path='/termsofuse'>
           <Legalinformation />
          </Route> 
          <Route path='/privacypolicy'>
