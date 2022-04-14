@@ -12,7 +12,7 @@ import Home from './Pages/Home'
 import Login from './Pages/Login'
 import Robotics from './Pages/innovation/robotics'
 import Drones from './Pages/innovation/drones'
-import AI from './Pages/innovation/AI'
+import AI from './Pages/innovation/ai'
 import Blockchain from './Pages/innovation/blockchain'
 import Software from './Pages/projects/software'
 import Hardware from './Pages/projects/hardware'
@@ -62,7 +62,7 @@ useEffect(()=>{
          <Route  path='/innovation/drones'>
          <Drones />
          </Route>
-         <Route  path='/innovation/AI'>
+         <Route  path='/innovation/ai'>
          <AI />
          </Route>
          <Route  path='/innovation/blockchain'>

@@ -72,7 +72,7 @@ function Posts() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/weblang/3.png" alt="" />
+              <img src="../../../Images/event/3.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -90,7 +90,7 @@ function Posts() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images" alt="" />
+              <img src="../../../Images/weblang/angular.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
