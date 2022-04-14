@@ -8,52 +8,108 @@ function Posts() {
   const history = useHistory()
   return (
     <div className="postParentDiv">
-      <div className="moreView">
+      <div className="recommendations">
         <div className="heading">
-          <span>Acticles</span>
-            <span><button className='list1' onClick={()=>history.push('/menu/articles')}>View more</button></span>
+          <span>Articles</span>
+          <span><button className='list1' onClick={()=>history.push('/menu/articles')}>View more</button></span>
         </div>
-
-        <div className="recommendations">
+        <div className="cards">
           <div className="card">
-           <div className="">        
-        </div>
-        <div className="image" onClick={()=>history.push('/')}>
-        <img src="../../../Images/prolang/c.png" alt="" />
+            <div className="favorite">
+            
+            </div>
+            <div className="image" onClick={()=>history.push('/')}>
+              <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
-              <p className=""></p>
-              <span className="">C</span>
-              <p className=""></p>
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">C</p>
             </div>
-            <div className="date">     
-            </div>      
+            <div className="date">
+              <span></span>
             </div>
-        
-
-        
-          <div className="recommendations">
-            <div className="card">
-              <div className="">  
-
-        </div>
-        <div  className="image" onClick={()=>history.push('/')}>
-        <img src="../../../Images/prolang/cpp.png" alt="" />
+          </div>
+          <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image" onClick={()=>history.push('/')}>
+              <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
-              <p className=""></p>
-              <span className="">C++</span>
-              <p className=""></p>
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">C++</p>
             </div>
-            <div className="date">     
-            </div>      
+            <div className="date">
+              <span></span>
+            </div>
           </div>
+        </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image" onClick={()=>history.push('/')}>
+              <img src="../../../Images/event/2.png" alt="" />
+            </div>
+            <div className="content">
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">Web Programming</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
           </div>
+        </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image" onClick={()=>history.push('/')}>
+              <img src="../../../Images/weblang/3.png" alt="" />
+            </div>
+            <div className="content">
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">Smart device Programming</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div className="cards">
+          <div className="card">
+            <div className="favorite">
+            
+            </div>
+            <div className="image" onClick={()=>history.push('/')}>
+              <img src="../../../Images" alt="" />
+            </div>
+            <div className="content">
+              <p className=""> </p>
+              <span className=""></span>
+              <p className="name">Angular</p>
+            </div>
+            <div className="date">
+              <span></span>
+            </div>
+          </div>
+        </div>
         
-          </div>
-        
+        </div> 
         
       </div>
+    
+
+
+    
       <div className="recommendations">
         <div className="heading">
           <span>Recommendations</span>
