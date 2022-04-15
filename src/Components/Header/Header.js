@@ -37,7 +37,7 @@ function Header() {
           </div>
           </div>          
          
-          <div class="dropdown">
+          {/*<div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           All Course
           </button>
@@ -46,7 +46,7 @@ function Header() {
           <a class="dropdown-item" onClick={()=>history.push('/cs/che')}>Computer Hardware Engineering</a>
           <a class="dropdown-item" onClick={()=>history.push('/cs/it')}>Information Technology</a>
           </div>
-          </div>
+          </div>*/}
           
           
 			<div class="dropdown dropdown-large">
@@ -55,12 +55,12 @@ function Header() {
 				<ul class="dropdown-menu dropdown-menu-large row">
 					<li class="col-sm-3">
 						<ul>
-							<li class="dropdown-header">Glyphicons</li>
+							<li class="dropdown-header">AI &#38; Machine Learning</li>
 							<li><a href="#">Available glyphs</a></li>
-							<li class="disabled"><a href="#">How to use</a></li>
+							<li><a href="#">How to use</a></li>
 							<li><a href="#">Examples</a></li>
 							<li class="divider"></li>
-							<li class="dropdown-header">Dropdowns</li>
+							<li class="dropdown-header">Cyber Security</li>
 							<li><a href="#">Example</a></li>
 							<li><a href="#">Aligninment options</a></li>
 							<li><a href="#">Headers</a></li>
@@ -69,25 +69,25 @@ function Header() {
 					</li>
 					<li class="col-sm-3">
 						<ul>
-							<li class="dropdown-header">Button groups</li>
+							<li class="dropdown-header">Cloud Computing</li>
 							<li><a href="#">Basic example</a></li>
 							<li><a href="#">Button toolbar</a></li>
 							<li><a href="#">Sizing</a></li>
 							<li><a href="#">Nesting</a></li>
 							<li><a href="#">Vertical variation</a></li>
 							<li class="divider"></li>
-							<li class="dropdown-header">Button dropdowns</li>
+							<li class="dropdown-header">DevOps</li>
 							<li><a href="#">Single button dropdowns</a></li>
 						</ul>
 					</li>
 					<li class="col-sm-3">
 						<ul>
-							<li class="dropdown-header">Input groups</li>
+							<li class="dropdown-header">Software Development</li>
 							<li><a href="#">Basic example</a></li>
 							<li><a href="#">Sizing</a></li>
 							<li><a href="#">Checkboxes and radio addons</a></li>
 							<li class="divider"></li>
-							<li class="dropdown-header">Navs</li>
+							<li class="dropdown-header">Digital Marketing</li>
 							<li><a href="#">Tabs</a></li>
 							<li><a href="#">Pills</a></li>
 							<li><a href="#">Justified</a></li>
@@ -95,7 +95,7 @@ function Header() {
 					</li>
 					<li class="col-sm-3">
 						<ul>
-							<li class="dropdown-header">Navbar</li>
+							<li class="dropdown-header">Big Data</li>
 							<li><a href="#">Default navbar</a></li>
 							<li><a href="#">Buttons</a></li>
 							<li><a href="#">Text</a></li>
