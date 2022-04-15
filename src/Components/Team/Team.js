@@ -21,7 +21,7 @@ function Team() {
         <div class="banner">
 				<div class="container">
 				
-					<h2>Team</h2>
+				<h2>Management Team</h2>
 					
 					<p></p>
 				</div>
@@ -31,7 +31,7 @@ function Team() {
 			<div class="eteam" id="eteam">
 				<div class="container">
 					<div class="default-heading">
-						
+					
 						<h2>Executing Team</h2>
 					</div>
 					<div class="row">
@@ -91,8 +91,8 @@ function Team() {
 			<div class="mteam" id="mteam">
 				<div class="container">
 					<div class="default-heading">
-					
-						<h2>Management Team</h2>
+					<h2>Development Team</h2>
+						
 					</div>
 					<div class="row">
 						<div class="col-md-3 col-sm-3">
@@ -151,7 +151,7 @@ function Team() {
 				<div class="container">
 					<div class="default-heading">
 					
-						<h2>Development Team</h2>
+						
 					</div>
 					<div class="row">
 						<div class="col-md-3 col-sm-3">
