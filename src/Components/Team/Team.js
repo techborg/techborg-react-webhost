@@ -43,7 +43,7 @@ function Team() {
 					
 								<h3>Shaun Sebastian</h3>
 							
-								<span class="dig">Founder & CEO</span>
+								<span class="dig">Founder &#38; CEO</span>
 								
 							</div>
 						</div>
@@ -162,7 +162,7 @@ function Team() {
 								
 								<h3>Mahesh MB</h3>
 							
-								<span class="dig">React Developer</span>
+								<span class="dig">React Developer &#38; Contributor</span>
 								
 							</div>
 						</div>
@@ -172,9 +172,9 @@ function Team() {
 					
 								
 					
-								<h3>Team member</h3>
+								<h3>Arun Sasi</h3>
 							
-								<span class="dig"></span>
+								<span class="dig">Full Stack Developer &#38; Contributor</span>
 								
 							</div>
 						</div>
@@ -184,9 +184,9 @@ function Team() {
 								
 								
 							
-								<h3>Team member</h3>
+								<h3>Jessil Thomas</h3>
 						
-								<span class="dig"></span>
+								<span class="dig">Web Developer &#38; Contributor</span>
 								
 							</div>
 						</div>
