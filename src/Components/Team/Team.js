@@ -26,7 +26,64 @@ function Team() {
 					<p></p>
 				</div>
 			</div>
-		
+			<div class="eteam" id="eteam">
+				<div class="container">
+					<div class="default-heading">
+					
+						<h2>Board Of Directors</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+					
+								<h3>Team member</h3>
+							
+								<span class="dig"></span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+					
+								<h3>Team member</h3>
+								
+								<span class="dig"></span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+								
+								<h3>Team member</h3>
+								
+								<span class="dig"></span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+						
+								<h3>Team member</h3>
+								
+								<span class="dig"></span>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 			<div class="eteam" id="eteam">
 				<div class="container">
@@ -196,9 +253,9 @@ function Team() {
 								
 								
 							
-								<h3>Team member</h3>
+								<h3>Sudesh Sudan</h3>
 								
-								<span class="dig"></span>
+								<span class="dig">Java Developer &#38; Contributor</span>
 								
 							</div>
 						</div>
