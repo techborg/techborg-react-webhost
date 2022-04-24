@@ -54,6 +54,7 @@ function Footer() {
       <div className="footer">
         
         <p onClick={()=>history.push('/')}>TechBorg Digital Labs © 2018-2022</p>
+        
         <div>
         <SocialIcon  url="https://www.facebook.com/techborgfb/"/>
         <SocialIcon url="https://www.instagram.com/techborg_/"/>
