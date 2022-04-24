@@ -56,9 +56,9 @@ function Header() {
 					<li class="col-sm-3">
 						<ul>
 							<li class="dropdown-header">AI &#38; Machine Learning</li>
-							<li><a href="#">Available glyphs</a></li>
-							<li><a href="#">How to use</a></li>
-							<li><a href="#">Examples</a></li>
+							<li><a href="#">Machine Learning Course</a></li>
+							<li><a href="#">Deep Learning Course (with Keras &#38; TensorFlow)</a></li>
+							
 							<li class="divider"></li>
 							<li class="dropdown-header">Cyber Security</li>
 							<li><a href="#">Example</a></li>

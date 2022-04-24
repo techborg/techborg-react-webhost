@@ -32,7 +32,7 @@ function Footer() {
               <li><button className='list1' onClick={()=>history.push('/')}>Community</button></li>
               <li><button className='list1' onClick={()=>history.push('/aboutus/careers')}>Careers</button></li>
               <li><button className='list1' onClick={()=>history.push('/aboutus/contactus')}>Contact Us</button></li>
-              <li><button className='list1' onClick={()=>history.push('/aboutus/opensource')}>Open-source</button></li>
+              <li><button className='list1' onClick={()=>history.push('/opensource')}>Open-source</button></li>
             </ul>
           </div>
         </div>
