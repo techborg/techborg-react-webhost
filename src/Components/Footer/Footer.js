@@ -60,7 +60,7 @@ function Footer() {
         <SocialIcon url="https://www.instagram.com/techborg_/"/>
         <SocialIcon url="https://twitter.com/tech_borg/"/>
         <SocialIcon url="https://www.linkedin.com/company/techborglearning/"/>
-        <SocialIcon url="https://www.youtube.com/c/TechBorg"/>
+        <SocialIcon url="https://www.youtube.com/c/Techborg?sub_confirmation=1"/>
         <SocialIcon url="https://play.google.com/store/apps/details?id=com.techborg.techborgtutorial"/>
         <SocialIcon url="https://github.com/techborg"/>
         </div>
