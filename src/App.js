@@ -29,6 +29,7 @@ import Legalinformation from './Pages/termsofuse';
 import Privacypolicy from './Pages/privacypolicy';
 import Company from './Pages/aboutus/company';
 import Team from './Pages/aboutus/team';
+import Opensource from './Pages/opensource';
 
 import { useEffect } from 'react';
 
@@ -112,6 +113,9 @@ useEffect(()=>{
          </Route> 
          <Route path='/aboutus/team'>
           <Team />
+         </Route> 
+         <Route path='/opensource'>
+          <Opensource />
          </Route> 
          
 

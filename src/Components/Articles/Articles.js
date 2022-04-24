@@ -61,7 +61,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/2.png" alt="" />
+              <img src="../../../Images/prolang/csharp.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -79,7 +79,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/3.png" alt="" />
+              <img src="../../../Images/prolang/java.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -97,7 +97,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/weblang/angular.png" alt="" />
+              <img src="../../../Images/prolang/python.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -124,7 +124,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/prolang/c.png" alt="" />
+              <img src="../../../Images/weblang/html.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -141,7 +141,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/1.png" alt="" />
+              <img src="../../../Images/weblang/css.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -159,7 +159,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/2.png" alt="" />
+              <img src="../../../Images/weblang/javascript.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -177,7 +177,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/3.png" alt="" />
+              <img src="../../../Images/event/2.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -228,7 +228,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/prolang/c.png" alt="" />
+              <img src="../../../Images/sdp/java.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -245,7 +245,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/1.png" alt="" />
+              <img src="../../../Images/sdp/kotlin.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
@@ -270,7 +270,7 @@ function Articles() {
             
             </div>
         <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/event/1.png" alt="" />
+              <img src="../../../Images/sdp/swift.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>

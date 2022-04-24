@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../Components/Header/Header';
 import Bannerwhite from '../Components/Bannerwhite/Bannerwhite';
-import opensource from '../Components/opensource/opensource';
+import Opensource from '../Components/opensource/opensource';
 import Footer from '../Components/Footer/Footer';
 
 function opens(props) {
@@ -10,7 +10,7 @@ function opens(props) {
     <div className="homeParentDiv">
       <Header />
       <Bannerwhite />
-      <opensource />
+      <Opensource />
       <Footer />
     </div>
   );
