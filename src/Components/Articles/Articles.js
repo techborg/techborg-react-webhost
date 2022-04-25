@@ -141,7 +141,7 @@ function Articles() {
             
             </div>
             <div className="image" onClick={()=>history.push('/')}>
-              <img src="../../../Images/weblang/css.png" alt="" />
+              <img src="../../../Images/weblang/CSS.png" alt="" />
             </div>
             <div className="content">
               <p className=""> </p>
