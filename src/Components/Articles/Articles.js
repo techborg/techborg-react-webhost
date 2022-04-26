@@ -25,7 +25,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/C')}>
               <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
@@ -42,7 +42,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/CPP')}>
               <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
@@ -60,7 +60,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Csharp')}>
               <img src="../../../Images/prolang/csharp.png" alt="" />
             </div>
             <div className="content">
@@ -78,7 +78,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Java')}>
               <img src="../../../Images/prolang/java.png" alt="" />
             </div>
             <div className="content">
@@ -96,7 +96,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Python')}>
               <img src="../../../Images/prolang/python.png" alt="" />
             </div>
             <div className="content">
@@ -123,7 +123,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Html')}>
               <img src="../../../Images/weblang/html.png" alt="" />
             </div>
             <div className="content">
@@ -140,7 +140,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/CSS')}>
               <img src="../../../Images/weblang/CSS.png" alt="" />
             </div>
             <div className="content">
@@ -158,7 +158,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Javascript')}>
               <img src="../../../Images/weblang/javascript.png" alt="" />
             </div>
             <div className="content">
@@ -176,7 +176,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/react')}>
               <img src="../../../Images/event/2.png" alt="" />
             </div>
             <div className="content">
@@ -194,7 +194,7 @@ function Articles() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Angular')}>
               <img src="../../../Images/weblang/angular.png" alt="" />
             </div>
             <div className="content">

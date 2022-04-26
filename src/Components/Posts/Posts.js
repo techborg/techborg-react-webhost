@@ -18,7 +18,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/C')}>
               <img src="../../../Images/prolang/c.png" alt="" />
             </div>
             <div className="content">
@@ -35,7 +35,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/CPP')}>
               <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
@@ -89,7 +89,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Angular')}>
               <img src="../../../Images/weblang/angular.png" alt="" />
             </div>
             <div className="content">
@@ -119,7 +119,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/CPP')}>
               <img src="../../../Images/event/1.png" alt="" />
             </div>
             <div className="content">
@@ -172,7 +172,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Angular')}>
               <img src="../../../Images/weblang/angular.png" alt="" />
             </div>
             <div className="content">
@@ -190,7 +190,7 @@ function Posts() {
             <div className="favorite">
             
             </div>
-            <div className="image" onClick={()=>history.push('/')}>
+            <div className="image" onClick={()=>history.push('/articles/Python')}>
               <img src="../../../Images/prolang/python.png" alt="" />
             </div>
             <div className="content">

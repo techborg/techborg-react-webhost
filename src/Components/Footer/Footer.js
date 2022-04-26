@@ -15,10 +15,10 @@ function Footer() {
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1' onClick={()=>history.push('/')}>C++</button></li>
+            <li><button className='list1' onClick={()=>history.push('/articles/CPP')}>C++</button></li>
             <li><button className='list1' onClick={()=>history.push('/')}>Web Programming</button></li>
             <li><button className='list1' onClick={()=>history.push('/')}>Smart Device Programming</button></li>
-            <li><button className='list1' onClick={()=>history.push('/')}>Java</button></li>
+            <li><button className='list1' onClick={()=>history.push('/articles/Java')}>Java</button></li>
             </ul>
           </div>
         </div>
@@ -61,8 +61,6 @@ function Footer() {
         <SocialIcon url="https://twitter.com/tech_borg/"/>
         <SocialIcon url="https://www.linkedin.com/company/techborglearning/"/>
         <SocialIcon url="https://www.youtube.com/c/Techborg?sub_confirmation=1"/>
-        <SocialIcon url="https://play.google.com/store/apps/details?id=com.techborg.techborgtutorial"/>
-        <SocialIcon url="https://github.com/techborg"/>
         </div>
         
   

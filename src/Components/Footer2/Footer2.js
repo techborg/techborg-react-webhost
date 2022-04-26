@@ -22,9 +22,7 @@ function Footer2() {
         <SocialIcon url="https://www.instagram.com/techborg_/"/>
         <SocialIcon url="https://twitter.com/tech_borg/"/>
         <SocialIcon url="https://www.linkedin.com/company/techborglearning/"/>
-        <SocialIcon url="https://www.youtube.com/c/TechBorg"/>
-        <SocialIcon url="https://play.google.com/store/apps/details?id=com.techborg.techborgtutorial"/>
-        <SocialIcon url="https://github.com/techborg"/>
+        <SocialIcon url="https://www.youtube.com/c/TechBorg?sub_confirmation=1"/>
         </div>
   
         </div>
