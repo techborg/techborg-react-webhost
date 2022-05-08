@@ -5,7 +5,7 @@ import Bannerwhite from '../Components/Bannerwhite/Bannerwhite';
 
 import Footer from '../Components/Footer/Footer';
 
-function php(props) {
+function react(props) {
   return (
     <div className="homeParentDiv">
       <Header />
@@ -16,4 +16,4 @@ function php(props) {
   );
 }
 
-export default php;
+export default react;

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import {Button,ButtonGroup} from 'react-bootstrap';
-import './opensource.css';
+import './Legalinformation.css';
 import {useHistory} from 'react-router-dom'
 
-function opens() {
+function legalinformation() {
   const history = useHistory()
   return (
     <div className="postParentDiv">
@@ -12,13 +12,8 @@ function opens() {
 
       </div>
         
-        <h1>Open-Source</h1>
         
-        <p>Open-Source projects are supported by our community.</p>
-        <br></br>
-        <p>Projects are freely available in our public repository.</p>
-        <br></br>
-        <p></p>
+        
        
         </div>
     
@@ -27,4 +22,4 @@ function opens() {
   );
 }
 
-export default opens;
+export default legalinformation;
