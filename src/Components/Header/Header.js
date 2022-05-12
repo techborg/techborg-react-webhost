@@ -16,7 +16,7 @@ function Header() {
           {}
            <h1 onClick={()=>history.push('/')}>TECHBORG</h1>
         </div>          
-          <div class="dropdown">
+          {/* <div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Innovation
           </button>
@@ -35,7 +35,7 @@ function Header() {
           <a class="dropdown-item"  onClick={()=>history.push('/projects/hardware')}>Hardware</a>
           <a class="dropdown-item"  onClick={()=>history.push('/projects/software')}>Software</a>
           </div>
-          </div>          
+          </div>           */}
          
           {/*<div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +49,7 @@ function Header() {
           </div>*/}
           
           
-		
+{/* 		
 			<div class="dropdown dropdown-large">
 				<a  class="dropdown-toggle" data-toggle="dropdown">All Course </a>
 				
@@ -122,7 +122,7 @@ function Header() {
           <a class="dropdown-item" onClick={()=>history.push('/menu/articles')}>Articles</a>
           <a class="dropdown-item" onClick={()=>history.push('/menu/blog')}>Blog</a>
           </div>
-          </div>    
+          </div>     */}
                         
          <div className="loginPage">
                   
