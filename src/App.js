@@ -62,7 +62,7 @@ useEffect(()=>{
          <Route  path='/innovation/drones'>
          <Drones />
          </Route>
-         <Route  path='/innovation/ai'>
+         <Route  path='/innovation/AI'>
          <AI />
          </Route>
          <Route  path='/innovation/blockchain'>

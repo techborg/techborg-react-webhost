@@ -110,7 +110,7 @@ function Team() {
 						
 								
 					
-								<h3>Team member</h3>
+								<h3>Dylan Kei</h3>
 								
 								<span class="dig">CTO</span>
 								
@@ -144,8 +144,180 @@ function Team() {
 				</div>
 			</div>
 			
-
-			
+			<div class="eteam" id="eteam">
+				<div class="container">
+					<div class="default-heading">
+					
+						<h2>Development Team</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+					
+								<h3>Mahesh MB</h3>
+							
+								<span class="dig">Sr Front End Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+					
+								<h3>Arun Sasi</h3>
+								
+								<span class="dig">Full Stack Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+								
+								<h3>Blessen</h3>
+								
+								<span class="dig">Back End Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+						
+								<h3>Team member</h3>
+								
+								<span class="dig">Web Developer</span>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="eteam" id="eteam">
+				<div class="container">
+					<div class="default-heading">
+					
+						<h2></h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+					
+								<h3>Team member</h3>
+							
+								<span class="dig">Sr Front End Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+					
+								<h3>Team member</h3>
+								
+								<span class="dig">Full Stack Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+								
+								<h3>Vishnu Vardhan</h3>
+								
+								<span class="dig">Web Developer</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+						
+								<h3>Team member</h3>
+								
+								<span class="dig">Web Developer</span>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="eteam" id="eteam">
+				<div class="container">
+					<div class="default-heading">
+					
+						<h2></h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+					
+								<h3>Team member</h3>
+							
+								<span class="dig">Position</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+					
+								<h3>Team member</h3>
+								
+								<span class="dig">Position</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+						
+							<div class="member">
+						
+								
+								
+								<h3>Team member</h3>
+								
+								<span class="dig">Position</span>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							
+							<div class="member">
+								
+								
+						
+								<h3>Team member</h3>
+								
+								<span class="dig">Position</span>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
     
     
