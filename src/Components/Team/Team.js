@@ -110,7 +110,7 @@ function Team() {
 						
 								
 					
-								<h3>Dylan Kei</h3>
+								<h3>Team member</h3>
 								
 								<span class="dig">CTO</span>
 								
@@ -181,9 +181,9 @@ function Team() {
 						
 								
 								
-								<h3>Blessen</h3>
+								<h3>Jessial Thomas</h3>
 								
-								<span class="dig">Back End Developer</span>
+								<span class="dig">Full Stack Developer</span>
 								
 							</div>
 						</div>
@@ -193,9 +193,9 @@ function Team() {
 								
 								
 						
-								<h3>Team member</h3>
+								<h3>Blessen Mathew</h3>
 								
-								<span class="dig">Web Developer</span>
+								<span class="dig">Back End Developer</span>
 								
 							</div>
 						</div>

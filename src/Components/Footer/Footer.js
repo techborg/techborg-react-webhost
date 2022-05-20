@@ -11,14 +11,14 @@ function Footer() {
       <div className="content">
         <div>
           <div className="heading">
-            <p>Popular Acticles </p>
+            <p>Innovation</p>
           </div>
           <div className="list">
             <ul>
-            <li><button className='list1' onClick={()=>history.push('/articles/CPP')}>C++</button></li>
-            <li><button className='list1' onClick={()=>history.push('/')}>Web Programming</button></li>
-            <li><button className='list1' onClick={()=>history.push('/')}>Smart Device Programming</button></li>
-            <li><button className='list1' onClick={()=>history.push('/articles/Java')}>Java</button></li>
+            <li><button className='list1' onClick={()=>history.push('/innovation/robotics')}>Robotics</button></li>
+            <li><button className='list1' onClick={()=>history.push('/innovation/drones')}>Drones</button></li>
+            <li><button className='list1' onClick={()=>history.push('/innovation/ai')}>AI</button></li>
+            <li><button className='list1' onClick={()=>history.push('/innovation/blockchain')}>Blockchain</button></li>
             </ul>
           </div>
         </div>
