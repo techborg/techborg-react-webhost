@@ -1,22 +1,20 @@
-import React,{useContext} from 'react';
-import './Header.css';
-import {useHistory} from 'react-router-dom'
-import { Authcontext, FirebaseContext } from '../../store/FirebaseContext';
-
-
+import React, { useContext } from "react";
+import "./Header.css";
+import { useHistory } from "react-router-dom";
+import { Authcontext, FirebaseContext } from "../../store/FirebaseContext";
 
 function Header() {
-  const {user}=useContext(Authcontext)
-  const {firebase}=useContext(FirebaseContext)
-  const history = useHistory()
+  const { user } = useContext(Authcontext);
+  const { firebase } = useContext(FirebaseContext);
+  const history = useHistory();
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
         <div className="brandName">
           {}
-           <h1 onClick={()=>history.push('/')}>TECHBORG</h1>
-        </div>          
-          {/* <div class="dropdown">
+          <h1 onClick={() => history.push("/")}>TECHBORG</h1>
+        </div>
+        {/* <div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Innovation
           </button>
@@ -36,8 +34,8 @@ function Header() {
           <a class="dropdown-item"  onClick={()=>history.push('/projects/software')}>Software</a>
           </div>
           </div>           */}
-         
-          {/*<div class="dropdown">
+
+        {/*<div class="dropdown">
           <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           All Course
           </button>
@@ -47,9 +45,8 @@ function Header() {
           <a class="dropdown-item" onClick={()=>history.push('/cs/it')}>Information Technology</a>
           </div>
           </div>*/}
-          
-          
-{/* 		
+
+        {/* 		
 			<div class="dropdown dropdown-large">
 				<a  class="dropdown-toggle" data-toggle="dropdown">All Course </a>
 				
@@ -123,32 +120,44 @@ function Header() {
           <a class="dropdown-item" onClick={()=>history.push('/menu/blog')}>Blog</a>
           </div>
           </div>     */}
-                        
-         <div className="loginPage">
-                  
+        <div className="navigationMenu">
+          <div className="loginPage">
+            <span>
+              {user ? (
+                ` Welcome ${user.displayName}`
+              ) : (
+                <button className="list1" onClick={() => history.push("/login")}>
+                  Login
+                </button>
+              )}{" "}
+            </span>
 
-
-         <span>{user ? ` Welcome ${user.displayName}` : <button className='list1' onClick={()=>history.push('/login')}>Login</button> }  </span>
-
-
-
-         {/* <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` : <button>Login</button> } </button> </span>  */}
-        
-         </div>
-          <button className='list1'>{ user&& <span onClick={()=>{
-           firebase.auth().signOut()
-           history.push('/login')
-         }}>Logout</span> }</button> 
-         <div className="Signup">
-         <span><button className='list1' onClick={()=>history.push('/signup')}> {user ?'':'Signup'}</button></span>
+            {/* <span> <button className='list1' onClick={()=>history.push('/login')}> {user ? ` Welcome ${user.displayName}` : <button>Login</button> } </button> </span>  */}
+          </div>
+          <button className="list1">
+            {user && (
+              <span
+                onClick={() => {
+                  firebase.auth().signOut();
+                  history.push("/login");
+                }}
+              >
+                Logout
+              </span>
+            )}
+          </button>
+          <div className="Signup">
+            <span>
+              <button className="list1" onClick={() => history.push("/signup")}>
+                {" "}
+                {user ? "" : "Signup"}
+              </button>
+            </span>
+          </div>
         </div>
-        
-       
-
         <hr />
       </div>
     </div>
-    
   );
 }
 

@@ -25,6 +25,10 @@
 .footerParentDiv .footer p {
   margin: 0;
 }
-.list1{
-  border:none;
+.list1 {
+  border: none;
+}
+
+.footer > div > * {
+  margin-right: 10px;
 }
